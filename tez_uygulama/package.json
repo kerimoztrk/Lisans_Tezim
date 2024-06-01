@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6"
+  },
+  "scripts": {
+    "build": "babel input.js -o output.js"
+  }
+}
